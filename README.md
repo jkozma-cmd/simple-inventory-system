@@ -1,15 +1,23 @@
-# Simple Inventory Management System (Java)
+# Inventory Management System (Java)
 
-A console-based inventory tracker built in Java.  
-This project allows users to:
-- Add products (ID, Name, Price, Quantity)
-- View all products in an organized list
-- Remove products by ID
+## Overview
+A simple console-based Java application to manage products in an inventory.  
+This project demonstrates object-oriented design, user input handling, and dynamic data management.
 
 ## Features
-- Object-oriented structure (`Product` class)
-- Uses `ArrayList` for dynamic inventory storage
-- Console menu navigation with input validation
+- Add new products with ID, name, price, and quantity
+- Remove existing products by ID
+- View all current products in inventory
+- Menu-driven interface using loops and switch statements
+- Data stored dynamically with `ArrayList<Product>`
 
-## How to Run
-1. Compile both files:
+## Structure
+- **Product.java** – Defines the `Product` class (ID, name, price, quantity)
+- **Main.java** – Manages inventory operations and user interaction
+
+## Skills Demonstrated
+- Object-Oriented Programming (OOP)
+- Control structures (`if`, `switch`, `for`, `while`)
+- Collections (`ArrayList`)
+- User input handling with `Scanner`
+- Formatted console output
