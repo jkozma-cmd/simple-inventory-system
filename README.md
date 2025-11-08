@@ -21,3 +21,8 @@ This project demonstrates object-oriented design, user input handling, and dynam
 - Collections (`ArrayList`)
 - User input handling with `Scanner`
 - Formatted console output
+
+## Possible Future Updates
+- Total product price addition for new products in inventory
+- File storage addition (save/load inventory data)
+- Sorting or searching functionality
