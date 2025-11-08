@@ -23,8 +23,10 @@
 hs_err_pid*
 replay_pid*
 
-# Ignore build and IDE files
+# Ignore IDE and build folders
 bin/
 .settings/
 .project
 .classpath
+# General
+*.class
