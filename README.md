@@ -1,15 +1,15 @@
 # Inventory Management System (Java)
 
 ## Overview
-A simple console-based Java application to manage products in an inventory.  
-This project demonstrates object-oriented design, user input handling, and dynamic data management.
+Inventory Manager is a simple Java console application that allows users to manage a small product inventory system. 
+Users can add products, remove products, view all products currently in inventory, and update existing products.
 
 ## Features
 - Add new products with ID, name, price, and quantity
 - Remove existing products by ID
 - View all current products in inventory
+- Update an existing product by entering its product ID
 - Menu-driven interface using loops and switch statements
-- Data stored dynamically with `ArrayList<Product>`
 
 ## Structure
 - **Product.java** – Defines the `Product` class (ID, name, price, quantity)
@@ -21,8 +21,5 @@ This project demonstrates object-oriented design, user input handling, and dynam
 - Collections (`ArrayList`)
 - User input handling with `Scanner`
 - Formatted console output
-
-## Possible Future Updates
-- Total product price addition for new products in inventory
-- File storage addition (save/load inventory data)
-- Sorting or searching functionality
+- Exception handling with `try/catch`
+- Basic input validation
