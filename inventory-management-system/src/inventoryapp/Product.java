@@ -37,5 +37,20 @@ public class Product {
 		
 		return quantity;
 	}
-	
+
+	public void setId(String idUpdate) {
+		this.id = idUpdate;
+	}
+
+	public void setName(String nameUpdate) {
+		this.name = nameUpdate;
+	}
+
+	public void setPrice(double priceUpdate) {
+		this.price = priceUpdate;
+	}
+
+	public void setQuantity(int quantityUpdate) {
+		this.quantity = quantityUpdate;
+	}
 }
