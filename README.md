@@ -1,4 +1,4 @@
-# Inventory Management System (Java)
+# Product Management Platform (Java)
 
 ## Overview
 Inventory Manager is a simple Java console application that allows users to manage a small product inventory system. 
